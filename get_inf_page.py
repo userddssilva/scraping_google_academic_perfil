@@ -70,8 +70,8 @@ def generate_authors_graph(graph):
     # define size image
     plt.figure(figsize=(50, 70))
     nx.draw(G, with_labels=True)
-    # plt.savefig("artigos_com_nome.png") # save as png
-    # plt.savefig("artigos_com_sigla.png") # save as png
+    # plt.savefig("artigos_com_nome.pdf") # save as png
+    # plt.savefig("artigos_com_sigla.pdf") # save as png
     plt.show() # display
 
 def main():
